@@ -3,7 +3,7 @@ local profiles = require("config.profiles")
 
 local state_file = vim.fn.stdpath("data") .. "/categories.json"
 
-M.modes = {"core", "LSP", "Ui", "git", "extra", "42"}
+M.modes = {"core", "LSP", "Ui", "editor", "git", "extra", "42"}
 
 local function	default_data()
 	local	custom = {}
