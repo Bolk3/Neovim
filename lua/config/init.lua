@@ -1,0 +1,6 @@
+return {
+	require("config.lazy"),
+	require("config.categories"),
+	require("config.profiles"),
+	require("config.keymaps"),
+}
