@@ -3,4 +3,5 @@ return {
 	require("config.categories"),
 	require("config.profiles"),
 	require("config.keymaps"),
+	require("config.globals"),
 }
